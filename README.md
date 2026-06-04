@@ -1,6 +1,6 @@
-# Galaxy Analysis – P170+20
+# Quasar Analysis 
 
-This repository contains data analysis scripts developed to study the high-redshift galaxy candidate **P170+20**, evaluated as a potential gravitational lensing system.
+This repository contains data analysis scripts developed to study s high-redshift galaxy candidate, evaluated as a potential gravitational lensing system.
 
 The project was carried out during a research internship at the Gemini Observatory and focuses on extracting physical information from spectroscopic data using reproducible data analysis workflows.
 
@@ -47,8 +47,8 @@ Main techniques:
 
 ## 📂 Repository Structure
 
-├── P170+20_P1.ipynb   # Data normalization, binning strategy implementation, and preliminary template testing  
-├── P170+20_P2.ipynb   # Quantitative model comparison and hypothesis evaluation  
+├── Quasar_P1.ipynb   # Data normalization, binning strategy implementation, and preliminary template testing  
+├── Quasar_P2.ipynb   # Quantitative model comparison and hypothesis evaluation  
 ├── figures/          # Diagnostic plots and comparative visualizations   
 
 ---
