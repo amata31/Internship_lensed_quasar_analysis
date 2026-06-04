@@ -1,6 +1,6 @@
 # Quasar Analysis 
 
-This repository contains data analysis scripts developed to study s high-redshift galaxy candidate, evaluated as a potential gravitational lensing system.
+This repository contains data analysis scripts developed to study a high-redshift galaxy candidate, evaluated as a potential gravitational lensing system.
 
 The project was carried out during a research internship at the Gemini Observatory and focuses on extracting physical information from spectroscopic data using reproducible data analysis workflows.
 
