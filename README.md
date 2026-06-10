@@ -1,84 +1,93 @@
-# Quasar Analysis 
+# Quasar Analysis
 
-This repository contains data analysis scripts developed to study a high-redshift galaxy candidate, evaluated as a potential gravitational lensing system.
+This repository contains Python notebooks developed to investigate a candidate gravitationally lensed high-redshift quasar using optical and near-infrared spectroscopic observations.
 
-The project was carried out during a research internship at the Gemini Observatory and focuses on extracting physical information from spectroscopic data using reproducible data analysis workflows.
+The project was carried out during a research internship at the Gemini Observatory and focuses on spectroscopic data processing, template fitting, and quantitative model comparison to evaluate the physical nature of the source.
 
 ---
 
 ## 🚀 Project Objective
 
-To process and analyze spectroscopic observations in order to:
+The analysis aims to:
 
-- Rescaling spectroscopic data to match photometric reference points
-- Combining multi-source observational datasets
-- Resampling spectra into uniform wavelength bins
-- Comparing observational data against galaxy template models
-- Evaluating plausible physical scenarios through model fitting
-- Evaluate the gravitational lensing hypothesis
-- Extract information from spectral features
+* Process and combine multi-instrument spectroscopic large-scale observations.
+* Rescale spectra to match photometric reference measurements.
+* Normalize data to photometric points and resample data into uniform wavelength bins.
+* Compare observational data with quasar and stellar template models.
+* Evaluate competing physical scenarios through template fitting.
+* Test the gravitational lensing hypothesis.
+* Extract physical information from spectral features.
 
-Although astrophysics-driven, the workflow follows a structured data science pipeline:
+The workflow follows a reproducible scientific data analysis pipeline:
 
-data ingestion → preprocessing → modeling → parameter estimation → visualization
+**data ingestion → preprocessing → template fitting → model evaluation → visualization**
 
 ---
 
 ## 🛠 Methods & Tools
 
-- Python 3.x
-- NumPy
-- SciPy
-- Matplotlib
-- Jupyter Notebook
-- Git for version control
+### Tools
 
-Main techniques:
+* Python
+* NumPy
+* SciPy
+* Astropy
+* Matplotlib
+* Jupyter Notebook
+* Git
 
-- Data normalization and flux rescaling to external photometric constraints
-- Multi-source data integration and consistency alignment
-- Spectral resampling into uniform wavelength bins
-- Template-based model comparison
-- Quantitative evaluation of alternative physical scenarios
-- Scientific visualization for comparative diagnostics
-- Error propagation analysis
+### Methods
+
+* Spectral normalization and flux rescaling
+* Multi-source data integration
+* Spectral resampling and binning
+* Template-based model fitting
+* Reduced χ² model comparison
+* Scientific visualization and residual analysis
 
 ---
 
 ## 📂 Repository Structure
 
-├── Quasar_P1.ipynb   # Data normalization, binning strategy implementation, and preliminary template testing  
-├── Quasar_P2.ipynb   # Quantitative model comparison and hypothesis evaluation  
-├── figures/          # Diagnostic plots and comparative visualizations   
+```text
+├── Quasar_P1.ipynb   # Data preparation, normalization, template construction, and preliminary model testing
+├── Quasar_P2.ipynb   # Automated fitting, reduced χ² analysis, and model comparison
+├── figures/          # Diagnostic plots and visualizations
+```
 
 ---
 
 ## 🔒 Data Availability
 
-The observational data used in this project are not included in this repository as they are part of ongoing research work.
+The observational data and final publication figures are not included in this repository because they are part of ongoing scientific research.
 
-The scripts are shared to demonstrate the data processing workflow, modeling strategy, and analysis structure.
+The notebooks are shared to demonstrate the analysis workflow, fitting methodology, and model evaluation procedures.
 
 ---
 
 ## 📌 Project Status
 
-This work is part of ongoing research. Results are currently under scientific preparation.
+Research project completed as part of a Gemini Observatory internship. Some results are currently under scientific publication.
 
 ---
 
-## 💡 Data Science Skills Demonstrated
+## 💡 Skills Demonstrated
 
-- Structured scientific data processing
-- Model fitting and optimization
-- Quantitative feature extraction
-- Reproducible research workflow
-- Domain-driven analytical reasoning
+* Scientific data processing
+* Data cleaning and normalization
+* Model fitting and optimization
+* Statistical model evaluation
+* Multi-source data integration
+* Reproducible research workflows
+* Scientific visualization
+* Quantitative problem solving
 
 ---
 
 ## 👩‍💻 Author
 
-Aurora Mata Sánchez  
-M.Sc. in Astrophysics  
-Interested in data science, scientific computing, and quantitative modeling.
+**Aurora Mata Sánchez**
+M.Sc. Astrophysics, UNAM
+
+Interested in data science, machine learning, scientific computing, and quantitative modeling.
+
