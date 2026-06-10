@@ -51,8 +51,7 @@ The workflow follows a reproducible scientific data analysis pipeline:
 
 ```text
 ├── Quasar_P1.ipynb   # Data preparation, normalization, template construction, and preliminary model testing
-├── Quasar_P2.ipynb   # Automated fitting, reduced χ² analysis, and model comparison
-├── figures/          # Diagnostic plots and visualizations
+├── Quasar_P2.ipynb   # Automated fitting, reduced χ² analysis, and model comparison.  Diagnostic plots and visualizations
 ```
 
 ---
