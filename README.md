@@ -1,4 +1,4 @@
-# Hihg-z quasar analysis
+# Quasar analysis
 
 This repository contains Python notebooks developed to investigate a candidate gravitationally lensed high-redshift quasar using optical and near-infrared spectroscopic observations.
 
