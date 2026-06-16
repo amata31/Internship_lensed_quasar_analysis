@@ -87,5 +87,3 @@ Research project completed as part of a Gemini Observatory internship. Some resu
 **Aurora Mata Sánchez**
 M.Sc. Astrophysics, UNAM
 
-Interested in data science, machine learning, scientific computing, and quantitative modeling.
-
