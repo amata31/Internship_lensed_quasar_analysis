@@ -12,7 +12,6 @@ The analysis aims to:
 
 * Process and combine multi-instrument spectroscopic large-scale observations.
 * Normalize data to photometric points and resample data into uniform wavelength bins.
-* Compare observational data with quasar and stellar template models.
 * Evaluate competing physical scenarios through template fitting.
 * Test the gravitational lensing hypothesis.
 * Extract physical information from spectral features.
@@ -20,9 +19,9 @@ The analysis aims to:
 
 The workflow follows a reproducible scientific data analysis pipeline:
 
-**data ingestion → preprocessing → template fitting → model evaluation → visualization**
+**1,2: data ingestion → preprocessing → template fitting → model evaluation → visualization**
 
-**data ingestion → image preprocessing → extract physical paramters-> selection of objects → PSF creation**
+**3: data ingestion → image preprocessing → extract physical paramters-> selection of objects → PSF creation**
 
 ---
 
@@ -36,7 +35,7 @@ The workflow follows a reproducible scientific data analysis pipeline:
 * Astropy
 * Matplotlib
 * Jupyter Notebook
-* Photoutils
+* Photutils
 
 ### Methods
 
@@ -55,7 +54,7 @@ The workflow follows a reproducible scientific data analysis pipeline:
 ```text
 ├── Quasar_P1.ipynb   # Data preparation, normalization, template construction, and preliminary model testing
 ├── Quasar_P2.ipynb   # Automated fitting, reduced χ² analysis, and model comparison.  Diagnostic plots and visualizations
-├── Quasar_P3.ipynb   # Image proccessing, construction and preparation for PSF substraction.
+├── Quasar_P3.ipynb   # Image proccessing, calculation of initial parameters, construction of PSF and preparation for substraction with GALFIT.
 ```
 
 ---
