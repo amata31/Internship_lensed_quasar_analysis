@@ -11,12 +11,12 @@ The project was carried out during a research internship at the Gemini Observato
 The analysis aims to:
 
 * Process and combine multi-instrument spectroscopic large-scale observations.
-* Rescale spectra to match photometric reference measurements.
 * Normalize data to photometric points and resample data into uniform wavelength bins.
 * Compare observational data with quasar and stellar template models.
 * Evaluate competing physical scenarios through template fitting.
 * Test the gravitational lensing hypothesis.
 * Extract physical information from spectral features.
+* Process images and construction of Point Spread Function with data from Hubble Space Telescope.
 
 The workflow follows a reproducible scientific data analysis pipeline:
 
@@ -34,7 +34,7 @@ The workflow follows a reproducible scientific data analysis pipeline:
 * Astropy
 * Matplotlib
 * Jupyter Notebook
-* Git
+* Photoutils
 
 ### Methods
 
@@ -44,6 +44,7 @@ The workflow follows a reproducible scientific data analysis pipeline:
 * Template-based model fitting
 * Reduced χ² model comparison
 * Scientific visualization and residual analysis
+* Image processing and PSF construction
 
 ---
 
@@ -52,6 +53,7 @@ The workflow follows a reproducible scientific data analysis pipeline:
 ```text
 ├── Quasar_P1.ipynb   # Data preparation, normalization, template construction, and preliminary model testing
 ├── Quasar_P2.ipynb   # Automated fitting, reduced χ² analysis, and model comparison.  Diagnostic plots and visualizations
+├── Quasar_P3.ipynb   # Image proccessing, construction and preparation for PSF substraction.
 ```
 
 ---
@@ -85,5 +87,5 @@ Research project completed as part of a Gemini Observatory internship. Some resu
 ## 👩‍💻 Author
 
 **Aurora Mata Sánchez**
-M.Sc. Astrophysics, UNAM
+M.Sc. Astrophysics
 
