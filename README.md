@@ -77,7 +77,6 @@ Research project completed as part of a Gemini Observatory internship. Some resu
 * Model fitting and optimization
 * Statistical model evaluation
 * Multi-source data integration
-* Reproducible research workflows
 * Scientific visualization
 * Quantitative problem solving
 
