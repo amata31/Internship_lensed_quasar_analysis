@@ -21,7 +21,7 @@ The workflow follows a reproducible scientific data analysis pipeline:
 
 **1,2: data ingestion → preprocessing → template fitting → model evaluation → visualization**
 
-**3: data ingestion → image preprocessing → extract physical paramters-> selection of objects → PSF creation**
+**3: data ingestion → image preprocessing → estimate parameters -> selection of objects → PSF construction**
 
 ---
 
@@ -69,7 +69,7 @@ The notebooks are shared to demonstrate the analysis workflow, fitting methodolo
 
 ## 📌 Project Status
 
-Research project completed as part of a Gemini Observatory internship. Some results are currently under scientific publication.
+Research project completed as part of a Gemini Observatory internship. Results are currently under scientific publication.
 
 ---
 
