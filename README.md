@@ -22,6 +22,8 @@ The workflow follows a reproducible scientific data analysis pipeline:
 
 **data ingestion → preprocessing → template fitting → model evaluation → visualization**
 
+**data ingestion → image preprocessing → extract physical paramters-> selection of objects → PSF creation**
+
 ---
 
 ## 🛠 Methods & Tools
